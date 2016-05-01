@@ -50,12 +50,28 @@
 
 
 
-    function myFunc() {
-        alert("I Love games")
+//    function myFunc() {
+//        alert("I Love games")
+//
+//    }
 
+
+
+    function changeBg() {
+        document.bgColor = "red";
+    }
+
+    function changeBgYellow() {
+        document.bgColor = "yellow";
+    }
+
+    function changeBgGreen() {
+        document.bgColor = "green";
     }
 
 </script>
-<button onclick="myFunc()">Click</button>
+<span onmouseover="changeBg()">Red</span><br>
+<span onclick="changeBgYellow()">Yellow</span><br>
+<span onclick="changeBgGreen()">Green</span><br>
 </body>
 </html>
