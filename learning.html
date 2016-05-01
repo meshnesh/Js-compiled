@@ -30,9 +30,9 @@
 
 
 
-<h1>
+<p>
     My web page
-</h1>
+</p>
 <script type="text/javascript">
 //    var func = "practice makes perfect"
 //    document.write(func);
@@ -120,11 +120,20 @@
 
 
 
-    var cars = new Array("BMW", "Mazda", "Toyota", "Nissan");
-    for (var i=0; i<cars.length;i++){
-        document.write(cars[3] + "<br>");
-    }
+//    var cars = new Array("BMW", "Mazda", "Toyota", "Nissan");
+//    for (var i=0; i<cars.length;i++){
+//        document.write(cars[3] + "<br>");
+//    }
 
+
+
+
+//JQUERY
+     $(document).ready(function(){
+         $("p").ondblclick(function(){
+             $(this).hide();
+         });
+     });
 
 </script>
 
