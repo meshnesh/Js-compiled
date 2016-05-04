@@ -20,3 +20,21 @@ while(slaying){
     }
     slaying= false;
 }
+
+
+var project = prompt("Which project have you done 1, 2, 3.");
+
+switch(project) {
+    case '1':
+        console.log("this is how you will not graduate!");
+        break;
+    case '2':
+        console.log("eenh you will sleep for 2 more hours b4 you work!");
+        break;
+    case '3':
+        console.log("see yah dont wana be yah");
+        break;
+    // Add your code here!
+    default:
+        console.log("go home and hide under the bed frank is gonna kill you!")
+}
