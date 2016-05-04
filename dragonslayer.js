@@ -1,30 +1,30 @@
 var slaying = true;
-var youHit = Math.floor(Math.random() * 2);
+var youHitThat = Math.floor(Math.random() * 2);
 var damageThisRound = Math.floor(Math.random() * 5 + 1);
 var totalDamage = 0;
 
 while(slaying){
-    if(youHit){
-        console.log("Nice shot");
+    if(youHitThat){
+        console.log("Boy, don't you know I am slaying?");
         totalDamage = totalDamage + damageThisRound;
         if(totalDamage >= 4){
-            console.log("You killed the beast");
+            console.log("You owned that dragon. Yeah, you made it your !@#$%");
             slaying= false;
         }
         else {
-            youHit = Math.floor(Math.random() * 2);
+            youHitThat = Math.floor(Math.random() * 2);
         }
     }
     else {
-        console.log("you know your dead");
+        console.log("Dude, you're dead. You're so dead. Problem is, I slay so hard you don't even know you're dead.");
     }
     slaying= false;
 }
 
 
-var project = prompt("Which project have you done 1, 2, 3.");
+// var project = readline();
 
-switch(project) {
+switch(youHitThat) {
     case '1':
         console.log("this is how you will not graduate!");
         break;
